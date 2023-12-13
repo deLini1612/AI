@@ -57,4 +57,3 @@ def myCosineSimilarityKernel(X1,X2):
             An n1-by-n2 numpy array representing the Kernel (Gram) matrix
     '''
     return #TODO (CIS 519 ONLY)
-
