@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 
 face_classifier = cv2.CascadeClassifier(r'haarcascade_frontalface_default.xml')
-classifier =load_model(r'model/CNN_hypermodel_dynamic_clean_fl.h5')
+classifier =load_model(r'model/68_model1_aug.h5')
 
 emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']
 
